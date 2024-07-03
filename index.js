@@ -13,7 +13,7 @@ app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true })); 
 app.use(express.json());
 app.use(cors({
- origin:["http://web-client-black.vercel.app"],
+ origin:["https://web-client-black.vercel.app"],
  methods:["POST","GET"],
  credentials:true
 }));
