@@ -21,6 +21,8 @@ app.use(cors({
 
  connectDB; 
 
+app.use('/',(req,res)=>{console.log("Hello from server"})
+
 app.use('/api/user', userRouter);
 
 app.listen(port, () => {
