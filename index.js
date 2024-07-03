@@ -20,7 +20,6 @@ app.use(cors({
 
 
  connectDB; 
-app.get('/',(req,res)=>{console.log("Hello from server"})
 
 app.use('/api/user', userRouter);
 
